@@ -7,3 +7,7 @@ dist/
 *.mov
 *.blend1
 .DS_Store
+
+# Downloaded third-party assets: local only
+public/assets/
+catalog/imported.local.json
