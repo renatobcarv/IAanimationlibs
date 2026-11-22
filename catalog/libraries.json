@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "notes": "Source links are verified landing pages, not direct asset files. Download using the provider's official flow. Licensing varies and must be reviewed at download time.",
+  "libraries": [
+    {
+      "id": "quaternius-rpg",
+      "provider": "Quaternius",
+      "title": "RPG Character Pack",
+      "category": "characters",
+      "url": "https://quaternius.com/packs/rpgcharacters.html",
+      "method": "manual",
+      "license": "verify-at-download",
+      "tags": [
+        "fantasy",
+        "humanoid",
+        "rigged"
+      ]
+    },
+    {
+      "id": "quaternius-animated",
+      "provider": "Quaternius",
+      "title": "Ultimate Animated Character Pack",
+      "category": "characters",
+      "url": "https://quaternius.com/packs/ultimatedanimatedcharacter.html",
+      "method": "manual",
+      "license": "verify-at-download",
+      "tags": [
+        "animated",
+        "fantasy"
+      ]
+    },
+    {
+      "id": "quaternius-universal",
+      "provider": "Quaternius",
+      "title": "Universal Animation Library",
+      "category": "animations",
+      "url": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "method": "manual",
+      "license": "verify-at-download",
+      "tags": [
+        "locomotion",
+        "combat",
+        "universal-rig"
+      ]
+    },
+    {
+      "id": "quaternius-nature",
+      "provider": "Quaternius",
+      "title": "Ultimate Nature Pack",
+      "category": "environments",
+      "url": "https://quaternius.com/packs/ultimatenature.html",
+      "method": "manual",
+      "license": "verify-at-download",
+      "tags": [
+        "forest",
+        "trees",
+        "rocks"
+      ]
+    },
+    {
+      "id": "quaternius-base",
+      "provider": "Quaternius",
+      "title": "Universal Base Characters",
+      "category": "characters",
+      "url": "https://quaternius.com/packs/universalbasecharacters.html",
+      "method": "manual",
+      "license": "verify-at-download",
+      "tags": [
+        "humanoid",
+        "compatible-with-universal-animations"
+      ]
+    },
+    {
+      "id": "kenney-town",
+      "provider": "Kenney",
+      "title": "Fantasy Town Kit",
+      "category": "environments",
+      "url": "https://kenney.nl/assets/fantasy-town-kit",
+      "method": "manual",
+      "license": "CC0",
+      "tags": [
+        "village",
+        "buildings",
+        "fantasy"
+      ]
+    },
+    {
+      "id": "kenney-catalog",
+      "provider": "Kenney",
+      "title": "Asset Library",
+      "category": "mixed",
+      "url": "https://kenney.nl/assets",
+      "method": "manual",
+      "license": "verify-per-pack",
+      "tags": [
+        "props",
+        "environments",
+        "ui"
+      ]
+    },
+    {
+      "id": "mixamo",
+      "provider": "Adobe Mixamo",
+      "title": "Characters & Motion Library",
+      "category": "animations",
+      "url": "https://www.mixamo.com/",
+      "method": "authenticated-manual",
+      "license": "Adobe Mixamo terms",
+      "tags": [
+        "fbx",
+        "rigging",
+        "attack",
+        "walk",
+        "run"
+      ]
+    },
+    {
+      "id": "polypizza",
+      "provider": "Poly Pizza",
+      "title": "3D Model Library",
+      "category": "mixed",
+      "url": "https://poly.pizza/",
+      "method": "manual",
+      "license": "verify-per-model",
+      "tags": [
+        "low-poly",
+        "weapons",
+        "props"
+      ]
+    },
+    {
+      "id": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Downloadable 3D Models",
+      "category": "mixed",
+      "url": "https://sketchfab.com/",
+      "method": "authenticated-manual",
+      "license": "verify-per-model",
+      "tags": [
+        "creatures",
+        "environment",
+        "characters"
+      ]
+    },
+    {
+      "id": "rokoko",
+      "provider": "Rokoko",
+      "title": "Rokoko Create / Motion Workflow",
+      "category": "animations",
+      "url": "https://create.rokoko.com/",
+      "method": "authenticated-manual",
+      "license": "verify-service-terms",
+      "tags": [
+        "mocap",
+        "motion",
+        "fbx"
+      ]
+    }
+  ]
+}
