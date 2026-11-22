@@ -41,3 +41,21 @@ public/assets/           # Assets baixados, fora do Git
 
 ## Direção do projeto
 Reutilizar personagens, movimentos, cenários, shaders e câmeras entre episódios. A arquitetura permite adicionar uma pipeline de produção de vídeo com captura/renderização determinística posteriormente, mas a versão atual é um editor de pré-visualização, não um renderizador de MP4.
+
+
+## Direção criativa por IA
+- [Prompt mestre (história, copy, storyboard e produção)](prompts/MASTER_DIRECTOR.md)
+- [Prompt de geração de assets por IA](prompts/ASSET_GENERATOR.md)
+- [Brief de novo episódio](templates/EPISODE_BRIEF.md)
+- [Episódio 001 — exemplo](examples/EPISODE_001_FOREST.md)
+
+### Como usar com Claude Code
+Cole a instrução:
+```text
+Leia prompts/MASTER_DIRECTOR.md, templates/EPISODE_BRIEF.md e
+catalog/libraries.json. Produza um episódio ORIGINAL de 30 segundos
+no estilo RPG low-poly cinematográfico. Gere 3 ideias, selecione
+a mais visual, crie a copy, o storyboard e um inventário de assets.
+Depois implemente uma prévia realista com os arquivos existentes;
+registre todas as pendências. Não afirme que exportou MP4 sem fazê-lo.
+```
